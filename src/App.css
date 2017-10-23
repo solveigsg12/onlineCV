@@ -1,0 +1,6 @@
+.App {
+  display: flex;
+  max-width:100%;
+justify-content: space-between;
+flex-direction: column;
+}

@@ -1,0 +1,24 @@
+.aboutMeContainer {
+  display: flex;
+  flex-grow: 1;
+  background-color: gray;
+}
+
+.aboutMeText {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.aboutMeImage{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.imgOfMe{
+  display: flex;
+  align-self: center;
+  width: 400px;
+  padding: 20px;
+}
