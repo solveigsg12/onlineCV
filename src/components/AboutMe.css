@@ -1,24 +1,52 @@
 .aboutMeContainer {
   display: flex;
+  flex-direction: column;
+  align-content: flex-start;
   flex-grow: 1;
-  background-color: gray;
+  font-size: 40px;
+  font-weight: 500;
+  color: #26434c;
+}
+
+.aboutMeHi {
+  font-size: 60px;
+  font-weight: 700;
+}
+.aboutMeHeader {
+  display: flex;
+  font-size: 42px;
+  color: #8B008B;
+  font-weight: 700;
 }
 
 .aboutMeText {
   display: flex;
+  flex-direction: column;
   flex: 1;
-  justify-content: space-around;
+  padding: 30px;
+  background-color:#e7e7e7;
+  min-height: 300px;
+
 }
 
-.aboutMeImage{
+.aboutMeImageContainer{
   display: flex;
   flex: 1;
   justify-content: space-around;
 }
 
-.imgOfMe{
+.graduationPictureContainer{
   display: flex;
-  align-self: center;
-  width: 400px;
-  padding: 20px;
+}
+.graduationPicture {
+  position:relative;
+  width: 100vw;
+  height: 150vh;
+}
+
+.moreAboutMe {
+  padding: 30px;
+}
+.purple {
+  color: #8B008B;
 }
